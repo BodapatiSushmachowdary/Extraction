@@ -1,0 +1,68 @@
+{
+  "input": "voucher.jpg",
+  "aligned_image": "voucher_output\\aligned.png",
+  "account_number": "178739217549",
+  "amount": "7500.00",
+  "signatures": {
+    "approved_by_sig": {
+      "detected": true,
+      "ink_pixels": 2525,
+      "size": [
+        71,
+        228
+      ],
+      "file": "voucher_output\\signatures\\approved_by_sig_color.png"
+    },
+    "main_signature": {
+      "detected": true,
+      "ink_pixels": 918,
+      "size": [
+        81,
+        185
+      ],
+      "file": "voucher_output\\signatures\\main_signature_color.png"
+    }
+  },
+  "diagnostics": {
+    "account_number_candidates": [
+      [
+        "178739217549",
+        0.99
+      ]
+    ],
+    "rupees_candidates": [
+      [
+        "7500.00",
+        1.45
+      ],
+      [
+        "500.00",
+        1.39
+      ],
+      [
+        "7500",
+        0.97
+      ]
+    ],
+    "rs_box_candidates": [
+      [
+        "7500",
+        1.96
+      ]
+    ],
+    "amount_combined_ranking": [
+      [
+        "7500.00",
+        3.63
+      ],
+      [
+        "7500",
+        2.42
+      ],
+      [
+        "500.00",
+        1.39
+      ]
+    ]
+  }
+}
